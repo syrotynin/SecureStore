@@ -13,6 +13,9 @@
 		9244AA772322829F000E2F0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9244AA762322829F000E2F0A /* Assets.xcassets */; };
 		9244AA7A2322829F000E2F0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9244AA782322829F000E2F0A /* LaunchScreen.storyboard */; };
 		9244AA85232282A0000E2F0A /* SecureStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9244AA84232282A0000E2F0A /* SecureStoreTests.swift */; };
+		9244AA95232282EC000E2F0A /* SecureStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9244AA94232282EC000E2F0A /* SecureStore.swift */; };
+		9244AA97232282F8000E2F0A /* SecureStoreQueryable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9244AA96232282F8000E2F0A /* SecureStoreQueryable.swift */; };
+		9244AA9923228302000E2F0A /* SecureStoreError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9244AA9823228302000E2F0A /* SecureStoreError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		9244AA80232282A0000E2F0A /* SecureStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecureStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9244AA84232282A0000E2F0A /* SecureStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureStoreTests.swift; sourceTree = "<group>"; };
 		9244AA86232282A0000E2F0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9244AA94232282EC000E2F0A /* SecureStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureStore.swift; sourceTree = "<group>"; };
+		9244AA96232282F8000E2F0A /* SecureStoreQueryable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureStoreQueryable.swift; sourceTree = "<group>"; };
+		9244AA9823228302000E2F0A /* SecureStoreError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureStoreError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 		9244AA6E2322829F000E2F0A /* SecureStore */ = {
 			isa = PBXGroup;
 			children = (
+				9244AA8F232282A5000E2F0A /* SecureStore */,
 				9244AA6F2322829F000E2F0A /* AppDelegate.swift */,
 				9244AA712322829F000E2F0A /* ViewController.swift */,
 				9244AA732322829F000E2F0A /* Main.storyboard */,
@@ -94,6 +101,16 @@
 				9244AA86232282A0000E2F0A /* Info.plist */,
 			);
 			path = SecureStoreTests;
+			sourceTree = "<group>";
+		};
+		9244AA8F232282A5000E2F0A /* SecureStore */ = {
+			isa = PBXGroup;
+			children = (
+				9244AA94232282EC000E2F0A /* SecureStore.swift */,
+				9244AA96232282F8000E2F0A /* SecureStoreQueryable.swift */,
+				9244AA9823228302000E2F0A /* SecureStoreError.swift */,
+			);
+			path = SecureStore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,7 +215,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9244AA722322829F000E2F0A /* ViewController.swift in Sources */,
+				9244AA9923228302000E2F0A /* SecureStoreError.swift in Sources */,
 				9244AA702322829F000E2F0A /* AppDelegate.swift in Sources */,
+				9244AA95232282EC000E2F0A /* SecureStore.swift in Sources */,
+				9244AA97232282F8000E2F0A /* SecureStoreQueryable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
